@@ -12,5 +12,5 @@ RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 #ADD hello.html /usr/share/nginx/html/index.html
 RUN rm /usr/share/nginx/html/index.html
 
-
+# Run nginx
 CMD ["nginx"]
